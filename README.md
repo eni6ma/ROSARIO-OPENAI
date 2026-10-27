@@ -1,5 +1,9 @@
 # ROSARIO-OPENAI
 
+> **General public: [Read the public comparison (PDF)](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf)**
+>
+> **Academic and research community: [Read the academic comparison (PDF)](Rosario_OpenAI_ENI6MA_2026-10-27.pdf)**
+
 ## Public Declaration: The Documented Provenance of OpenAI's 2026 SAT Method
 
 **For immediate release. October 27, 2026.**
@@ -99,6 +103,35 @@ If the record is as shown here, the consequences are serious and they fall on Op
 ## Provenance
 
 Rosario states that the ENI6MA research program began in 2023 and that the 2024 manuscripts followed months of collaboration among the research team. The dated manuscripts, repository history, correspondence, and team declarations form the provenance record. The public comparison document identifies the team members who can speak to the timing and development of the work.
+
+---
+
+## Index of PDFs in this repository
+
+| PDF | Pages | What it is |
+|---|---|---|
+| [`Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | The public edition of the side-by-side comparison between Rosario's 2024 work and OpenAI's 2026 paper. It carries the complete source documents as attachments, so every citation can be checked against the original text. |
+| [`Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | The edition for the academic and research community, with the same comparison and the same appended source record. Reviewers can use it to verify the stage-by-stage mapping against the cited pages and equations. |
+| [`ROSARIO-PAPER1.pdf`](ROSARIO-PAPER1.pdf) | 4 | A short post-doctoral style analysis by Frank Rosario, dated October 27, 2026, titled *Rosario's 2024 Priority and OpenAI's 2026 Construction: An Information-Theoretic Equivalence Analysis*. It argues that OpenAI's replacement forms, local group sums, and interpolation correspond to Rosario's dimensional collapse, emergent groupings, and entropy conservation postulate. |
+| [`OPENAI-paper.pdf`](OPENAI-paper.pdf) | 67 | OpenAI's paper *The Exponential Time Hypothesis Is False*, which is the document under comparison. It is included so readers can check every OpenAI citation in the comparison without leaving the repository. |
+| [`proof.millennium.prize.rosario.NP.eq.P (1).pdf`](proof.millennium.prize.rosario.NP.eq.P%20%281%29.pdf) | 20 | Rosario's August 2024 manuscript, *Millennium Prize Submission: Rosario Proof that NP=P*, which introduces the Rosario-Wang Proof framework. It is the earliest dated source for the transform, preserve, group, and solve sequence. |
+| [`NPTime.eq.PSPACE.000.pdf`](NPTime.eq.PSPACE.000.pdf) | 34 | Rosario's note *NP(time) = P(space)*, which postulates a relationship between nondeterministic polynomial time and polynomial space and models it with time and space complexity equations. It is Attachment D in the compiled comparison. |
+| [`Aaronson-pnp.pdf`](Aaronson-pnp.pdf) | 122 | Scott Aaronson's 2017 survey *P =? NP*, a third-party reference on the status of the problem. It is background reading and was not written by the Rosario team. |
+
+---
+
+## Rosario team
+
+Contact details below are only those that appear in the team's own documents. Entries marked "to be added" have no confirmed contact information yet.
+
+| Name | Role in the record | Email | LinkedIn |
+|---|---|---|---|
+| Frank Dylan Rosario | Author of the August and September 2024 manuscripts; ENI6MA lead (Rosario Cybernetics) | soltrinox@gmail.com | To be added |
+| Dr. Lin (Grant) Wang, PhD | Co-author, September 2024 manuscript; Rosario-Wang ENI6MA | orchestor@gmail.com (Duke, as printed on the manuscript) | To be added |
+| Dr. Octavia Sulea, PhD | Research team member | To be added | To be added |
+| Dr. Francisco Perez-Sorrosal, PhD | Research team member | To be added | To be added |
+| Maxwell A. Calixto | Research team member | To be added | To be added |
+| Robert Bloodgood III | Co-author, September 2024 manuscript | To be added | To be added |
 
 ---
 
