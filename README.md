@@ -31,7 +31,7 @@ OpenAI's 2026 method executes the same ordered sequence:
 |---|---|---|
 | 1. Avoid exhaustive search | Replace full exponential enumeration with structured processing | Begin from a $2^n$ global sum and seek a structure that avoids evaluating every assignment |
 | 2. Transform the representation | Map the original information into a projected representation | Replace original variables with parameterized linear forms |
-| 3. Preserve a route back | Keep the information needed to recover the solution | Require $H(0)=\#F$ so the original count is recoverable |
+| 3. Preserve a route back | Keep the information needed to recover the solution | Require $H(0)=\operatorname{count}(F)$ so the original count is recoverable |
 | 4. Partition into disjoint pieces | $\mathcal L=\bigsqcup_i B_{t,i}$ | $[n]=S_1\sqcup\cdots\sqcup S_r$ |
 | 5. Fix explicit group sizes | $\lvert B_{t,i}\rvert=N/H$ | $\lvert S_g\rvert\le 2n/r$, with exact groups of size $D/r$ |
 | 6. Give every object one local home | Every symbol sits in exactly one cell per round | Every variable sits in one group and every clause is assigned to one group |
@@ -40,7 +40,7 @@ OpenAI's 2026 method executes the same ordered sequence:
 | 9. Compute locally | Evaluate cell membership locally | Evaluate each clause and group using its own group plus fixed summaries |
 | 10. Combine local results | $Y=\prod_t \mu_t$ | Sum within groups, multiply across groups |
 | 11. Refine, do not search monolithically | Successive intersection of candidate sets | Controlled family of transformed points and restricted local sums |
-| 12. Recover the original answer | Extract the target from the refined structure | Rebuild $H(0)=\#F$ by Taylor data and interpolation |
+| 12. Recover the original answer | Extract the target from the refined structure | Rebuild $H(0)=\operatorname{count}(F)$ by Taylor data and interpolation |
 | 13. Cut the cost of an exponential problem | Replace exhaustive exponential search by projection and grouping | Subexponential fixed-width SAT counting |
 
 These thirteen correspondences are not thirteen separate coincidences. They form one dependency chain, in one order:

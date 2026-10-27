@@ -180,7 +180,7 @@ This algebraic identity is exact and occupies the same position in both construc
 | Stage | Rosario / ENI6MA | OpenAI 2026 | Strength of correspondence |
 |---|---|---|---|
 | 1 | Change representation by projection or morphism [2, pp. 15, 18-20] | Introduce parameterized replacement linear forms [1, p. 9] | High |
-| 2 | Preserve critical information / cardinality / link to original state [2, pp. 16-20] | Require $H(0)=\#F$ and preserve recoverability [1, pp. 9, 11] | High |
+| 2 | Preserve critical information / cardinality / link to original state [2, pp. 16-20] | Require $H(0)=\operatorname{count}(F)$ and preserve recoverability [1, pp. 9, 11] | High |
 | 3 | Disjoint equal-size cells $\bigsqcup_iB_{t,i}$, $|B_{t,i}|=N/H$ [4, Eq. (8)] | Disjoint groups $\bigsqcup_gS_g$ with size bound; auxiliary groups exactly $D/r$ [1, pp. 9-10, 14] | Very high |
 | 4 | Rotations/permutations change membership while preserving balance [5, p. 5] | Pair swaps/permutation matrices change compatibility while preserving coordinate set and grouping structure [1, pp. 14-16] | High |
 | 5 | Membership sequence and successive intersections refine candidate state [6, Secs. 3-4] | Assign each clause to one group; external dependence only through summaries [1, pp. 9-10] | Medium-high |
