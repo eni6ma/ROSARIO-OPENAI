@@ -4,6 +4,16 @@
 >
 > **Academic and research community: [Read the academic comparison (PDF)](Rosario_OpenAI_ENI6MA_2026-10-27.pdf)**
 
+## Contents
+
+- [Index of PDF files](#index-of-pdf-files) (every PDF in this repository, with page counts and what each one is)
+- [Index of Markdown files](#index-of-markdown-files)
+- [Equation verification guide](#equation-verification-guide) (each key equation, side by side, with the page where you can check it)
+- [Where to find each source inside the 308-page compiled PDFs](#where-to-find-each-source-inside-the-308-page-compiled-pdfs)
+- [Primary sources compared](#primary-sources-compared)
+- [Provenance](#provenance)
+- [Rosario team](#rosario-team)
+
 ## Public Declaration: The Documented Provenance of OpenAI's 2026 SAT Method
 
 **For immediate release. October 27, 2026.**
@@ -237,23 +247,15 @@ The significance of the comparison lies in the continuity of this sequence. Each
 5. **Rosario-Wang ENI6MA.** *NIST Submission Manuscript.*
 6. **Rosario-Wang ENI6MA.** *Unified Geometric Formalization.*
 
-## Evidence in this repository
-
-| File | Contents |
-|---|---|
-| [`Rosario_OpenAI_ENI6MA_Unified_Public_REGENERATED_2026-10-27.md`](Rosario_OpenAI_ENI6MA_Unified_Public_REGENERATED_2026-10-27.md) | Public comparison: the normalized adoption map and stage-by-stage analysis |
-| [`Rosario_OpenAI_ENI6MA_Unified_Academic_REGENERATED_2026-10-27.md`](Rosario_OpenAI_ENI6MA_Unified_Academic_REGENERATED_2026-10-27.md) | Academic version of the comparison |
-| [`Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | Compiled comparison PDF |
-| [`Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | Compiled comparison PDF with source attachments |
-
 ## Primary sources compared
 
-1. OpenAI, *The Exponential Time Hypothesis Is False*, dated October 17, 2026, revised October 25, 2026 ([paper](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf)).
-2. Rosario, *Millennium Prize Submission: Rosario Proof that NP=P*, August 2024.
-3. Wang, Rosario, and Bloodgood, *The Millennium Problem: Solution to P (space) equals NP (time)*, September 2024.
-4. Rosario-Wang ENI6MA, *Full Scope Security Formalization*, Section 5, Lemma 1, Equation (8).
-5. Rosario-Wang ENI6MA, *NIST Submission Manuscript*, p. 5, Lemma 1.
-6. Rosario-Wang ENI6MA, *Unified Geometric Formalization*, Sections 3 and 4.
+1. OpenAI, *The Exponential Time Hypothesis Is False*, dated October 17, 2026, revised October 25, 2026 ([paper](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf)). Local copy: [`OPENAI-paper.pdf`](OPENAI-paper.pdf).
+2. Rosario, *Millennium Prize Submission: Rosario Proof that NP=P*, August 2024. Local copy: [`proof.millennium.prize.rosario.NP.eq.P (1).pdf`](proof.millennium.prize.rosario.NP.eq.P%20%281%29.pdf).
+3. Wang, Rosario, and Bloodgood, *The Millennium Problem: Solution to P (space) equals NP (time)*, September 2024. Included as Attachment B of the compiled comparison PDFs.
+4. Rosario-Wang ENI6MA, *Full Scope Security Formalization*, Section 5, Lemma 1, Equation (8). Attachment E.
+5. Rosario-Wang ENI6MA, *NIST Submission Manuscript*, Section 3.1, Lemma 1. Attachment F.
+6. Rosario-Wang ENI6MA, *Unified Geometric Formalization*, Sections 3 and 4. Attachment G.
+
 
 ## Provenance
 
@@ -261,17 +263,69 @@ Rosario states that the ENI6MA research program began in 2023 and that the 2024 
 
 ---
 
-## Index of PDFs in this repository
+## Index of PDF files
 
-| PDF | Pages | What it is |
+Every PDF in this repository is listed here in reading order. "Printed date" is the date shown on the document itself, so readers can check dates for themselves.
+
+| PDF | Pages | Printed date | What it is |
+|---|---|---|---|
+| [`Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | Oct 27, 2026 | The public edition of the side-by-side comparison between Rosario's work and OpenAI's 2026 paper. It reproduces every source document as an attachment, so each citation can be checked against the original text. |
+| [`Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | Oct 27, 2026 | The edition designated for the academic and research community, with the same attachments appended. Reviewers can use it to verify the stage-by-stage mapping against cited pages and equations. |
+| [`Thirteen_Steps_Too_Close_to_Ignore_Frank_Dylan_Rosario.pdf`](Thirteen_Steps_Too_Close_to_Ignore_Frank_Dylan_Rosario.pdf) | 13 | Oct 27, 2026 | A plain-language article by Frank Dylan Rosario that walks through the thirteen-stage correspondence between his framework and OpenAI's architecture. It is written for a general reader and does not require the full comparison. |
+| [`Rosario_OpenAI_Sequence_Analysis_Frank_Dylan_Rosario_2026-10-27.pdf`](Rosario_OpenAI_Sequence_Analysis_Frank_Dylan_Rosario_2026-10-27.pdf) | 6 | Oct 27, 2026 | A beginning-to-end structural map of the Rosario sequence and OpenAI's 2026 SAT construction, by Frank Dylan Rosario with the research team. Its text is also reproduced in this README above. |
+| [`ESSAY_Rosario_vs_OpenAI_SideBySide.pdf`](ESSAY_Rosario_vs_OpenAI_SideBySide.pdf) | 14 | Oct 27, 2026 | An essay that sets the Rosario equations beside the OpenAI equations with document, section, page and equation citations. It also states the limits of each comparison and lists the further evidence that would strengthen the record. |
+| [`ROSARIO-PAPER1.pdf`](ROSARIO-PAPER1.pdf) | 4 | Oct 27, 2026 | A short academic-style analysis, *Rosario's 2024 Priority and OpenAI's 2026 Construction: An Information-Theoretic Equivalence Analysis*. It argues that OpenAI's replacement forms, local group sums and interpolation correspond to Rosario's dimensional collapse, emergent groupings and entropy conservation postulate. |
+| [`OPENAI-paper.pdf`](OPENAI-paper.pdf) | 67 | Oct 17, 2026 (revised Oct 25) | OpenAI's paper *The Exponential Time Hypothesis Is False*, the document under comparison. It is included so every OpenAI citation can be checked without leaving the repository. |
+| [`proof.millennium.prize.rosario.NP.eq.P (1).pdf`](proof.millennium.prize.rosario.NP.eq.P%20%281%29.pdf) | 20 | August 2024 | Rosario's manuscript *Millennium Prize Submission: Rosario Proof that NP=P*. It sets out dimensional collapse, the Holographic Morphism Principle and entropy conservation, in words and schematic formulas. It contains no Boolean-formula, polynomial or counting algorithm. |
+| [`NPTime.eq.PSPACE.000.pdf`](NPTime.eq.PSPACE.000.pdf) | 34 | Not printed | Rosario's note *NP(time) = P(space)*, which models the relation between nondeterministic polynomial time and polynomial space with time and space complexity equations. It is Attachment D in the compiled comparison. |
+| [`Aaronson-pnp.pdf`](Aaronson-pnp.pdf) | 122 | 2017 | Scott Aaronson's survey *P =? NP*, a third-party reference on the status of the problem. It is background reading and was not written by the Rosario team. |
+
+The September 2024 manuscript by Wang, Rosario and Bloodgood and the ENI6MA documents (Full Scope Security Formalization, NIST Submission Manuscript, Unified Geometric Formalization, Geometric Fibers and Private Slices) are not separate files here. They appear only as attachments inside the two 308-page compiled PDFs, at the page ranges listed [below](#where-to-find-each-source-inside-the-308-page-compiled-pdfs).
+
+## Index of Markdown files
+
+| File | What it is |
+|---|---|
+| [`README.md`](README.md) | This page: the public declaration, the thirteen-stage map, the indexes, the equation guide and the team list. It is the entry point to everything else. |
+| [`Rosario_OpenAI_ENI6MA_Unified_Public_REGENERATED_2026-10-27.md`](Rosario_OpenAI_ENI6MA_Unified_Public_REGENERATED_2026-10-27.md) | The public comparison in source form: the normalized adoption map and the stage-by-stage analysis. It is the Markdown source behind the public PDF. |
+| [`Rosario_OpenAI_ENI6MA_Unified_Academic_REGENERATED_2026-10-27.md`](Rosario_OpenAI_ENI6MA_Unified_Academic_REGENERATED_2026-10-27.md) | The academic version of the comparison in source form, with the fuller technical mapping. It is the Markdown source behind the academic PDF. |
+| [`ESSAY_Rosario_vs_OpenAI_SideBySide.md`](ESSAY_Rosario_vs_OpenAI_SideBySide.md) | The source of the side-by-side essay. Every equation in it is copied from a cited source page or marked as a normalized paraphrase. |
+
+The repository also contains [`LICENSE`](LICENSE).
+
+## Equation verification guide
+
+Use this table to check the equations yourself. Each row names a step of the sequence, the Rosario-side statement and where it is, and the OpenAI-side statement and where it is. "Compiled PDF page" means a page number in the 308-page PDFs. For OpenAI, the compiled PDF page equals the paper's own page number plus 121, and the standalone copy is [`OPENAI-paper.pdf`](OPENAI-paper.pdf). Read the comparison documents for what is identical and what is only analogous in each row. The essay states the limits of every comparison.
+
+| Step | Rosario side | OpenAI side |
 |---|---|---|
-| [`Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | The public edition of the side-by-side comparison between Rosario's 2024 work and OpenAI's 2026 paper. It carries the complete source documents as attachments, so every citation can be checked against the original text. |
-| [`Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Rosario_OpenAI_ENI6MA_2026-10-27.pdf) | 308 | The edition for the academic and research community, with the same comparison and the same appended source record. Reviewers can use it to verify the stage-by-stage mapping against the cited pages and equations. |
-| [`ROSARIO-PAPER1.pdf`](ROSARIO-PAPER1.pdf) | 4 | A short post-doctoral style analysis by Frank Rosario, dated October 27, 2026, titled *Rosario's 2024 Priority and OpenAI's 2026 Construction: An Information-Theoretic Equivalence Analysis*. It argues that OpenAI's replacement forms, local group sums, and interpolation correspond to Rosario's dimensional collapse, emergent groupings, and entropy conservation postulate. |
-| [`OPENAI-paper.pdf`](OPENAI-paper.pdf) | 67 | OpenAI's paper *The Exponential Time Hypothesis Is False*, which is the document under comparison. It is included so readers can check every OpenAI citation in the comparison without leaving the repository. |
-| [`proof.millennium.prize.rosario.NP.eq.P (1).pdf`](proof.millennium.prize.rosario.NP.eq.P%20%281%29.pdf) | 20 | Rosario's August 2024 manuscript, *Millennium Prize Submission: Rosario Proof that NP=P*, which introduces the Rosario-Wang Proof framework. It is the earliest dated source for the transform, preserve, group, and solve sequence. |
-| [`NPTime.eq.PSPACE.000.pdf`](NPTime.eq.PSPACE.000.pdf) | 34 | Rosario's note *NP(time) = P(space)*, which postulates a relationship between nondeterministic polynomial time and polynomial space and models it with time and space complexity equations. It is Attachment D in the compiled comparison. |
-| [`Aaronson-pnp.pdf`](Aaronson-pnp.pdf) | 122 | Scott Aaronson's 2017 survey *P =? NP*, a third-party reference on the status of the problem. It is background reading and was not written by the Rosario team. |
+| Partition into disjoint cells | Full Scope Security Formalization, Sec. 5, Lemma 1 and Eq. (8): the alphabet $L=\bigsqcup_i B_{t,i}$, each cell with $N/H$ elements. Compiled PDF pp. 228-229. | Definition 2.1(1), paper p. 9: $[n]=S_1\sqcup\cdots\sqcup S_r$, each group with at most $2n/r$ elements. Compiled PDF p. 130. |
+| Exact equal group size | NIST Submission Manuscript, Sec. 3.1, Lemma 1: exactly three keys in every cell. Compiled PDF p. 258. | Step 1 of the construction, paper p. 14: $D/r$ coordinates in each group. Compiled PDF p. 135. |
+| Size-preserving reindexing | NIST Submission Manuscript, Sec. 3.1: every rotation preserves balance and separation. Compiled PDF p. 258. | Section 2.7, paper p. 15: pair-swap permutations, and the complete swap respects every group. Compiled PDF p. 136. |
+| Limit what crosses a boundary | Unified Geometric Formalization, Sec. 4, Eqs. (F2), (F3), (F7): an observation fiber meets the private slice in one point. Compiled PDF p. 280. | Definition 2.1(3)-(4) and Eq. (2.5), paper pp. 9-10: other groups enter only through bounded shared measurements. Compiled PDF pp. 130-131. |
+| Compute locally | Full Scope Security Formalization, Sec. 4, per-round local test $\mu_t$. Compiled PDF p. 227. | Section 2.4, paper p. 10: sum assignments within each group for a fixed measurement tuple. Compiled PDF p. 131. |
+| Combine local results | Full Scope Security Formalization, Sec. 4, Eq. (6): $Y=\prod_t \mu_t$. Compiled PDF pp. 227-229. | Paper p. 8: the count is the product of the group counts, and Eq. (2.6), p. 10, nests that product inside a sum over measurement tuples. Compiled PDF pp. 129 and 131. |
+| Preserve a route back | August 2024 manuscript, p. 2: conservation of informational entropy, $S_H(I_H)=S_L(I_L)$. Compiled PDF p. 15. | Eq. (2.4), paper p. 9: $H(0)=C_F$, where $C_F$ is the exact count of the original formula. Compiled PDF p. 130. |
+| Recover the original answer | Full Scope Security Formalization, Theorem 1, Eq. (11): the inverses cancel the forward mappings. Compiled PDF p. 229. | Section 2.5, paper p. 11: $H(0)=C_F$ is recovered from Taylor coefficients by interpolation. Compiled PDF p. 132. |
+| Reduce the cost of the exponential problem | September 2024 manuscript, "Sequence of Solution" (p. B-79), Step 3: reduced to polynomial time. Compiled PDF pp. 113 and 116. | Theorem 1.1, paper p. 2: subexponential counting for fixed-width formulas. Compiled PDF p. 123. |
+
+## Where to find each source inside the 308-page compiled PDFs
+
+These ranges are the ones printed on the attachment index (page 12) of [`Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Frank-Rosario_OpenAI_ENI6MA_2026-10-27.pdf). The academic edition, [`Rosario_OpenAI_ENI6MA_2026-10-27.pdf`](Rosario_OpenAI_ENI6MA_2026-10-27.pdf), has the same page count.
+
+| Attachment | Compiled PDF pages | Source |
+|---|---|---|
+| A | 14-33 | Rosario, August 2024, *Millennium Prize Submission: Rosario Proof that NP=P* |
+| B | 35-120 | Rosario, Wang and Bloodgood, September 2024, *The Millennium Problem: Solution to P (space) equals NP (time)* |
+| C | 122-188 | OpenAI, October 2026, *The Exponential Time Hypothesis Is False* |
+| D | 190-223 | Rosario, *NP(time) = P(space)* |
+| E | 225-252 | Rosario-Wang ENI6MA, *Full Scope Security Formalization* |
+| F | 254-275 | Rosario-Wang ENI6MA, *NIST Submission Manuscript* |
+| G | 277-299 | Rosario-Wang ENI6MA, *Unified Geometric Formalization* |
+| H | 301-308 | Rosario-Wang ENI6MA, *Geometric Fibers and Private Slices* |
+
+The ENI6MA documents in Attachments E, F and G carry printed dates of September 12, 13 and 16, 2026. The compiled PDF states that they were prepared from earlier supplied drafts.
+
 
 ---
 
