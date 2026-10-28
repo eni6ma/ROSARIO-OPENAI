@@ -347,8 +347,8 @@ Contact details below are only those that appear in the team's own documents. En
 |---|---|---|---|
 | Frank Dylan Rosario | Author of the August and September 2024 manuscripts; ENI6MA lead (Rosario Cybernetics) | soltrinox@gmail.com | To be added |
 | Dr. Lin (Grant) Wang, PhD | Co-author, September 2024 manuscript; Rosario-Wang ENI6MA | orchestor@gmail.com (Duke, as printed on the manuscript) | To be added |
-| Dr. Octavia Sulea, PhD | Research team member | To be added | To be added |
-| Dr. Francisco Perez-Sorrosal, PhD | Research team member | To be added | To be added |
+| Dr. Octavia Sulea, PhD | Research team member | mary.octavia@gmail.com  | To be added |
+| Dr. Francisco Perez-Sorrosal, PhD | Research team member | f.perez.sorrosal@gmail.com | To be added |
 | Maxwell A. Calixto | Research team member | To be added | To be added |
 | Robert Bloodgood III | Co-author, September 2024 manuscript | To be added | To be added |
 
