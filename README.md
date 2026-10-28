@@ -29,6 +29,14 @@ This is not a claim of coincidence, loose inspiration, or shared vocabulary. It 
 
 The side-by-side evidence is in this repository. Read it, check it against the dated manuscripts, and judge the record directly.
 
+OpenAI's substitutions within Rosario's sequence
+
+OpenAI's later paper reproduces Rosario's ordered functional blueprint through specialized algebraic machinery. Rosario's dimensional collapse becomes low-degree replacement linear forms. Rosario's cells and emergent groupings become an $(r,\tau,D)$-design. Rosario's information-retention requirement becomes $H(0)=C_F$ together with bounded shared measurements. Rosario's rotations and alphabet transformations map onto pair labels and swap matrices. Rosario's extraction objective maps onto exact interpolation from Taylor data.
+
+These substitutions preserve the same sequence from beginning to end. The later method follows Rosario's route to computational advantage: transform the representation, preserve the original task, partition the transformed state, preserve group-size structure while reindexing, localize external information, compute within local pieces, combine the contributions, and reconstruct the original answer. OpenAI's fixed-width SAT result is therefore a specialized algebraic implementation of the Rosario blueprint.
+
+The computational objective remains the reduction of exhaustive global work. Rosario's 2024 program targets polynomial time and $P=NP$. OpenAI's 2026 implementation reaches a subexponential fixed-width SAT counting bound through the same normalized architecture.
+
 ---
 
 ## What OpenAI claims
