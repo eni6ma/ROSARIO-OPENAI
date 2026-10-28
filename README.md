@@ -4,9 +4,42 @@
 >
 > **Academic and research community: [Read the academic comparison (PDF)](Rosario_OpenAI_ENI6MA_2026-10-27.pdf)**
 
+---
+
+## What OpenAI Did
+
+In October 2026, OpenAI published *The Exponential Time Hypothesis Is False*, presenting a subexponential algorithm for fixed-width SAT counting as an independent, original discovery. However, this paper adopts the exact 13-stage ordered computational architecture written, dated, and documented in Frank Dylan Rosario's August and September 2024 manuscripts and the Rosario-Wang ENI6MA construction. OpenAI appropriated this functional sequence—transform, preserve, partition, balance, reindex, localize information, compute locally, combine, refine, and recover—by substituting Rosario's terminology with specialized algebraic vocabulary while maintaining identical sequential dependencies. Crucially, the Rosario-Wang team had spent the previous two years uploading these exact manuscripts, axioms, and equations into OpenAI's ChatGPT platform to test and validate their mathematics. For a complete breakdown of this structural appropriation, refer to the file "Rosario-OpenAI Information-Theoretic Equivalence Analysis".
+
+The research team's grievances center on intellectual property misappropriation, structural plagiarism, and a fundamental breach of academic attribution.
+
+* **Structural Plagiarism:** OpenAI's method is not a coincidence or loose inspiration; it reproduces Rosario's computational blueprint step for step, in the exact same order, relabeled in different notation and presented as new.
+
+
+* **Misappropriation of Platform Data:** The team alleges OpenAI utilized unpublished, proprietary materials and mathematical frameworks that the researchers submitted directly through OpenAI's own systems.
+
+
+* **Failure of Attribution:** Scientific norms require the acknowledgment of prior art, and OpenAI published a major public claim without citing the documented architecture formulated two years prior.
+
+
+OpenAI's actions have severe implications for the scientific record and the broader technology industry.
+
+* **Erosion of Platform Trust:** If researchers cannot safely test unpublished mathematics on an AI platform without the operator later publishing the same architecture as its own independent discovery, no serious researcher can use the platform for original work.
+
+
+* **Compromised Scientific Record:** OpenAI's claim of priority and independence cannot stand unless they address the earlier dated Rosario-Wang antecedents.
+
+
+* **Legal Exposure:** The Rosario-Wang team reserves all legal rights and remedies concerning authorship, priority, misappropriation, and the use of materials submitted to OpenAI's systems.
+
+
+* **Immediate Demands:** OpenAI must publicly acknowledge the 2024 Rosario-Wang formulations, address the 13-stage correspondence stage by stage, and preserve all internal records regarding the development of its SAT method and any usage of the team's submitted platform data.
+
+---
+
 ## Contents
 
 - [Functional-Slot Normalization of the Rosario-Wang and OpenAI 2026 Constructions](#functional-slot-normalization-of-the-rosario-wang-and-openai-2026-constructions) (the lead analysis, below)
+- [What OpenAI Did and the Claims Rosario Asserts](#what-openai-did-and-the-claims-rosario-asserts) (the allegation, the possible causes of action, and what each one means)
 - [Related documents](#related-documents) (public declaration, thirteen-stage map, stage-by-stage analysis)
 - [Index of PDF files](#index-of-pdf-files) (every PDF in this repository, with page counts and what each one is)
 - [Index of Markdown files](#index-of-markdown-files)
@@ -27,6 +60,58 @@ This report compares the Rosario-Wang research program with OpenAI's October 202
 The renewed comparison finds a counterpart in OpenAI's construction for **all thirteen core functional slots** previously identified in the Rosario-Wang architecture. The correspondence is especially strong at the following points: preservation of a route back to the original task; exhaustive disjoint partitioning; quantitative size control; cardinality-preserving reindexing; restriction of cross-boundary information; local computation after fixing bounded summaries; multiplicative accumulation of Boolean predicates; and recovery of the original target from transformed evaluations. The OpenAI paper also contains six additional cross-cutting correspondences that become visible only after normalization: multi-round sequence-valued addressing, literal preimage fibers, unique local-to-global recombination, point-indexed gating of incompatible dependencies, successive separating tests, and recurrence of the same transform-localize-combine-recover architecture in the tensor-contraction proof.
 
 The result is not that the mathematical objects are identical. They are not. The result is that OpenAI repeatedly substitutes different algebraic objects into the same kinds of functional positions and preserves substantially the same beginning-to-end dependency order. At the normalized architectural level, the later construction can therefore be described as a specialized algebraic instantiation of the earlier Rosario-Wang sequence, with additional technical machinery supplying rigorous complexity bounds for fixed-width SAT counting.
+
+# What OpenAI Did and the Claims Rosario Asserts
+
+This section states in plain terms what OpenAI did, what claims Rosario and the research team assert, and what each claim would mean if it were pursued. It is a statement of the team's position and a general description of legal theories. It is not legal advice and it is not a finding by any court.
+
+## What OpenAI did
+
+1. **It published a result as its own.** On October 17, 2026 (revised October 25, 2026), OpenAI released the paper *The Exponential Time Hypothesis Is False*. The paper lists a single author, "OpenAI". It names no individual researcher.
+2. **It built the result on a sequence the Rosario team had already described.** The functional-slot comparison above finds a counterpart in OpenAI's construction for all thirteen core slots of the Rosario-Wang architecture: transform the representation, preserve a route back to the original task, partition into disjoint pieces, bound the size of each piece, reindex while preserving the population, limit what crosses a boundary, compute locally, combine the local results, and recover the original target. OpenAI occupies each slot with different algebraic objects, and it keeps the same order and the same job for each step.
+3. **It did not cite or acknowledge the Rosario-Wang work.** The paper's related-work section names other authors and earlier results. It does not mention the August 2024 and September 2024 manuscripts or the ENI6MA documents.
+4. **It presented the result as its own.** The paper does not say that it builds on the Rosario-Wang work.
+
+## What the team does not claim
+
+The team does not claim that OpenAI copied text. The equations differ, and the comparison says so. The claim is that the architecture, meaning the ordered sequence of functions, is the same, and that it was taken without credit. The comparison document states the differences that remain after normalization in its section on implementation differences.
+
+## Claims Rosario asserts
+
+- **Failure of attribution.** A headline result presented as original has an earlier, dated antecedent in the Rosario manuscripts, and the paper does not acknowledge it.
+- **Use of the team's work without credit or permission.** Rosario asserts that the sequence was developed by the team over roughly three years and that OpenAI used it.
+- **A demand for identification.** Rosario asks OpenAI to say who at OpenAI wrote the paper and how the construction was derived.
+- **Reservation of rights.** Rosario reserves all rights and remedies available under applicable law.
+
+## Possible causes of action and what each one means
+
+The table describes general theories that a lawyer would consider. Whether any of them applies depends on facts that are not yet documented in this repository, and on a lawyer's review.
+
+| Theory | What it means in plain terms | What would have to be shown |
+|---|---|---|
+| Academic or research-integrity complaint | A formal complaint that a paper fails to credit earlier work. It is not a lawsuit. It goes to OpenAI, the independent reviewers OpenAI names, the preprint host, and any journal that receives the paper. | Dated earlier work, and a clear mapping from that work to the paper. The comparison in this repository is that mapping. |
+| Misappropriation of trade secrets | The use of confidential information that was acquired improperly or used in breach of a duty. | That the work was kept confidential, that it had value because it was secret, and that OpenAI got it and used it. Material the team published itself is difficult to treat as secret. |
+| Breach of contract or terms of use | A claim that OpenAI broke a promise it made about how it handles material that users submit. | The terms that applied to the team's accounts at the time, the data settings in force, and proof that team material reached OpenAI. |
+| Unjust enrichment or unfair competition | A claim that OpenAI gained a benefit from the team's work in a way the law treats as unfair. | Proof of a benefit and of unfair conduct. These claims are often limited when they only restate an idea-ownership claim. |
+| Copyright infringement | A claim that OpenAI reproduced the team's protected expression. | Copied wording, figures, or other expression. Copyright does not protect ideas, methods, or algorithms, and the comparison does not rely on shared text. |
+| Patent | A claim over an invention. | A patent application or grant. None is cited in this repository, so this theory is not presently available on the record. |
+
+## What it means
+
+- The strongest immediate remedy is public and scholarly: credit, disclosure of how the construction was derived, and a correction to the paper's account of prior work.
+- A court claim would turn on proof of access, meaning proof that the team's material reached OpenAI, and on proof of earlier dated drafts. Similar structure alone is not enough for most of the theories above.
+- OpenAI will say that it relied on published prior work, which its paper cites, and that a similar sequence can arise from the problem itself. The team's answer is the thirteen-slot comparison and the matching order of every step.
+
+## Evidence the team is preserving
+
+- Exports of the team's ChatGPT conversations and account data settings
+- Timestamped emails that sent the work to OpenAI or to others
+- Dated drafts, repository history, and file timestamps for every manuscript
+- Signed declarations from the research team members
+- An independent expert statement on the correspondence
+
+Anyone who holds relevant records may contact the team. The team's contact table is at the bottom of this page.
+
 
 # Introduction
 
