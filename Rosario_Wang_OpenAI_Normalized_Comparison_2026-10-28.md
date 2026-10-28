@@ -50,7 +50,7 @@ This distinction matters because algorithms often admit different mathematical i
 
 The Rosario-Wang record contains two relevant layers. First, the August and September 2024 P=NP manuscripts state the high-level program. The September manuscript expressly describes a sequence in which an exponentially large problem is projected into a lower-dimensional representation while retaining critical relationships, the projected information is grouped, and the grouped representation is used to bypass exhaustive search. The August manuscript similarly describes dimensional collapse as a strategic reorganization that retains critical attributes rather than simply deleting information. Second, later ENI6MA formalizations make several architectural roles finite and explicit: an alphabet is divided into disjoint balanced cells; rotations change membership while preserving balance; a target generates a sequence of cell labels; successive intersections narrow a candidate set; observation fibers represent compatible internal states; authorized slices select the target; and Boolean membership predicates are multiplied to produce complete acceptance.
 
-OpenAI's 2026 paper begins from a formally different problem: exact counting of satisfying assignments of fixed-width CNF formulas. The paper writes the exact count as a sum over all Boolean assignments and states that direct evaluation of its $2^n$ terms would be exhaustive search. It then introduces a parameterized family of replacement linear forms. At $T=0$, those replacements restore the original variables, giving $H(0)=\#F$. At selected nonzero points, the replacement forms are designed so variables can be divided into small disjoint groups, clauses can be assigned to groups, and dependence on other groups can pass only through bounded linear measurements. Once those measurements are fixed, each group can be processed locally. Local contributions are summed and multiplied, and data from multiple evaluation points are then used to reconstruct the original count through Taylor information and interpolation.
+OpenAI's 2026 paper begins from a formally different problem: exact counting of satisfying assignments of fixed-width CNF formulas. The paper writes the exact count as a sum over all Boolean assignments and states that direct evaluation of its $2^n$ terms would be exhaustive search. It then introduces a parameterized family of replacement linear forms. At $T=0$, those replacements restore the original variables, giving $H(0)=C_F$. At selected nonzero points, the replacement forms are designed so variables can be divided into small disjoint groups, clauses can be assigned to groups, and dependence on other groups can pass only through bounded linear measurements. Once those measurements are fixed, each group can be processed locally. Local contributions are summed and multiplied, and data from multiple evaluation points are then used to reconstruct the original count through Taylor information and interpolation.
 
 Viewed literally, the constructions differ. Viewed functionally, the sequence is much closer. The global state is reorganized before solving. A route to the original answer is preserved. The transformed state is divided into controlled local pieces. Relationships are changed through permutations while the underlying population is preserved. Information crossing local boundaries is restricted. Computation proceeds locally after boundary information is fixed. Local predicates or contributions are multiplied. Multiple constrained views are accumulated. The original answer is recovered from the transformed representation. Finally, the total work is shown to be smaller than global exhaustive enumeration.
 
@@ -122,7 +122,7 @@ $$
 **OpenAI implementation.** OpenAI imposes the exact anchor
 
 $$
-H(0)=\#F.
+H(0)=C_F.
 $$
 
 At $T=0$, every replacement form restores the original variable. The transformed family therefore contains the original exact count as a distinguished recoverable value.
@@ -254,7 +254,7 @@ For Boolean indicators, multiplication is logical AND.
 **OpenAI implementation.** OpenAI's clause satisfaction polynomial $\Phi_e$ equals one on a satisfied clause and zero otherwise. Its exact count begins with
 
 $$
-\#F=\sum_{x\in\{0,1\}^n}\prod_{e\in F}\Phi_e(x|_{I_e}).
+C_F=\sum_{x\in\{0,1\}^n}\prod_{e\in F}\Phi_e(x|_{I_e}).
 $$
 
 The product of the local Boolean predicates is one exactly when all required clause predicates are satisfied.
@@ -281,7 +281,7 @@ The product of the local Boolean predicates is one exactly when all required cla
 
 **Rosario-Wang implementation.** A separating schedule drives successive intersections to a singleton target or validates the enrolled target through the complete membership signature.
 
-**OpenAI implementation.** Taylor data from the transformed evaluations determine $H(T)$, and interpolation recovers its constant coefficient $H(0)=\#F$.
+**OpenAI implementation.** Taylor data from the transformed evaluations determine $H(T)$, and interpolation recovers its constant coefficient $H(0)=C_F$.
 
 **Normalized equivalence.** The recovery mechanisms differ, but the architectural obligation is the same: transformation is useful only because the algorithm can reconstruct the original target from the transformed state.
 
@@ -444,7 +444,7 @@ This distinction strengthens rather than weakens the comparison. It allows the r
 
 The renewed normalization supports a more precise conclusion than a surface comparison of formulas or terminology. Rosario-Wang and OpenAI do not use literally identical mathematical objects. Rosario-Wang works through projection, grouping, rotating partitions, membership signatures, fibers, slices, Boolean membership predicates, and successive target refinement. OpenAI works through polynomial replacement forms, bounded groups, auxiliary coordinates, pair-swap matrices, bounded measurements, local assignment enumeration, sum-product identities, Taylor data, interpolation, parity tests, and tensor contractions. If the comparison stopped at those nouns, the systems would appear different. Normalization instead asks what each object does for the algorithm, and on that basis the correspondence becomes substantially tighter.
 
-Both constructions begin by refusing to process the difficult global state in its original form. Rosario-Wang proposes a transformed representation in which relevant structure can be navigated locally. OpenAI begins from an exact $2^n$ assignment sum and explicitly seeks a representation in which smaller groups can be evaluated separately. In both, the first architectural response to exponential global traversal is transformation rather than brute-force acceleration. Both then preserve a route back to the original target. Rosario-Wang requires the transformation to retain the critical relationships needed for solution; OpenAI imposes the exact anchor $H(0)=\#F$.
+Both constructions begin by refusing to process the difficult global state in its original form. Rosario-Wang proposes a transformed representation in which relevant structure can be navigated locally. OpenAI begins from an exact $2^n$ assignment sum and explicitly seeks a representation in which smaller groups can be evaluated separately. In both, the first architectural response to exponential global traversal is transformation rather than brute-force acceleration. Both then preserve a route back to the original target. Rosario-Wang requires the transformation to retain the critical relationships needed for solution; OpenAI imposes the exact anchor $H(0)=C_F$.
 
 The middle of the pipeline contains the strongest normalized matches. Both systems divide the transformed state into disjoint local pieces and impose quantitative restrictions on their sizes. Rosario-Wang's balanced cells have fixed cardinality; OpenAI bounds its variable groups and constructs auxiliary fibers with exactly $D/r$ coordinates. Both give relevant objects local addresses. Both then alter the relationship pattern without changing the underlying population: Rosario-Wang through rotations, OpenAI through pair-swap permutation matrices. The concrete operations differ, but each exposes a new local relationship pattern while preserving the partitioned state.
 
