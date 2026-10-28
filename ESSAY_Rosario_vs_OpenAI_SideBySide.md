@@ -109,16 +109,16 @@ The proof is that "the inverses cancel the three forward mappings." E-NIST's The
 
 ### Step O1 (matches R1, R2). A transformed family with the original recoverable at zero
 
-OpenAI starts from an exact but exponential expression (OAI, Sec. 2.2, p. 8, Eq. (2.2)):
+OpenAI starts from an exact but exponential expression (OAI, Sec. 2.2, p. 8, Eq. (2.2)). Here $C_F$ denotes the exact number of satisfying assignments of $F$, which OpenAI writes with a hash sign:
 
 $$
-\#F=\sum_{x\in\{0,1\}^n}\ \prod_{e\in F}\Phi_e\big((x_v)_{v\in I_e}\big).
+C_F=\sum_{x\in\{0,1\}^n}\ \prod_{e\in F}\Phi_e\big((x_v)_{v\in I_e}\big).
 $$
 
 It then replaces each variable occurrence by a parameterized linear form, defines a polynomial family, and requires that the original be restored at the parameter value zero (OAI, Sec. 2.3, p. 9, Eqs. (2.3) and (2.4)):
 
 $$
-H(0)=\#F,\qquad \deg H\le MR\le 3nR.
+H(0)=C_F,\qquad \deg H\le MR\le 3nR.
 $$
 
 The paper states the requirement in words: "At $T=0$, the replacements must restore the original clause inputs."
@@ -128,7 +128,7 @@ The paper states the requirement in words: "At $T=0$, the replacements must rest
 Before the polynomial family appears, OpenAI motivates the method with a hypothetical partition of the variables into $r$ groups with at most $2n/r$ variables each, so that the count factors (OAI, Sec. 2.2, p. 8):
 
 $$
-\#F=\prod_{g=1}^{r}N_g .
+C_F=\prod_{g=1}^{r}N_g .
 $$
 
 The formal requirement is Definition 2.1 (OAI, p. 9), condition (1): "Partition the variables into disjoint groups $[n]=S_1\sqcup\cdots\sqcup S_r$, with $|S_g|\le 2n/r$." In the auxiliary construction of Section 2.7, the paper states that "the sets $S_{t,g}$ partition $B$, with $D/r$ coordinates in each group" (OAI, Step 1, p. 14).
@@ -157,7 +157,7 @@ and observes that "the complete swap $V_0$ already respects every group." The pa
 
 ### Step O6 (matches R7). Recovery from Taylor coefficients
 
-OpenAI recovers $H(0)=\#F$ from Taylor coefficients at the points $t=1,\dots,Q$, with $q=\lfloor 3nR/Q\rfloor$ and $J=q+1$ (OAI, Sec. 2.5, p. 11). It states that it uses "the same recovery principle" as Bhargava, Ghosh, Kumar and Mohapatra (OAI, Sec. 1.1.4, p. 6).
+OpenAI recovers $H(0)=C_F$ from Taylor coefficients at the points $t=1,\dots,Q$, with $q=\lfloor 3nR/Q\rfloor$ and $J=q+1$ (OAI, Sec. 2.5, p. 11). It states that it uses "the same recovery principle" as Bhargava, Ghosh, Kumar and Mohapatra (OAI, Sec. 1.1.4, p. 6).
 
 ### Step O7. Reduction of the search cost
 
@@ -264,7 +264,7 @@ These four constraints produce a skeleton of the form partition, then compute lo
 
 **Not forced, and where the two orders actually differ.**
 
-- In OpenAI's presentation the partition is introduced first as a hypothetical in Section 2.2, the polynomial family with $H(0)=\#F$ in Section 2.3, the design (partition plus measurements) in Section 2.4, recovery in Section 2.5, and the permutation device last, in Section 2.7. In the repository's chain the transform comes first, before any partition.
+- In OpenAI's presentation the partition is introduced first as a hypothetical in Section 2.2, the polynomial family with $H(0)=C_F$ in Section 2.3, the design (partition plus measurements) in Section 2.4, recovery in Section 2.5, and the permutation device last, in Section 2.7. In the repository's chain the transform comes first, before any partition.
 - In ENI6MA the rotation is part of the definition of the partition (Eq. (3) cuts the rotated ring into cells, and Lemma 1 then proves that the cells partition the alphabet). In OpenAI the partition $S_{t,g}$ is fixed first, and the pair-swap permutations are applied afterward to a coefficient matrix to control degrees. The order of "reindex" and "partition" is thus reversed between the two.
 - Bounded measurements, which sit in the middle of OpenAI's chain, have no counterpart in any Rosario or ENI6MA text read, and neither do interpolation and Taylor recovery. Stages 9 to 13 of the repository's map are matched to Rosario's text only through verbal statements (for example "successive refinement") rather than through any equation.
 

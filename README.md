@@ -199,8 +199,10 @@ OpenAI replaces one global enumeration with a controlled family of transformed e
 12. **Recover the original answer from the reorganized representation.** Rosario extracts the target from the projected, partitioned, and refined structure. OpenAI reconstructs the original count by recovering
 
 $$
-H(0)=\#F
+H(0)=C_F
 $$
+
+Here $C_F$ is the exact number of satisfying assignments of the original formula, which OpenAI writes with a hash sign.
 
 from transformed evaluations through Taylor information and interpolation.
 

@@ -14,7 +14,7 @@ The term **adopted** in this article identifies the functional and architectural
 
 2. **Transform the original representation before solving it.** Rosario maps higher-dimensional information $I_H$ into a projected representation $I_L=P(I_H)$ [2, pp. 18-20]. OpenAI replaces original variable occurrences by parameterized linear forms and evaluates the resulting family at selected points [1, p. 9].
 
-3. **Preserve a route back to the original task.** Rosario requires the transformed representation to retain the information and relationships needed for the solution [2, pp. 15-20]. OpenAI requires the transformed family to satisfy $H(0)=\#F$, so the original exact count remains recoverable [1, p. 9].
+3. **Preserve a route back to the original task.** Rosario requires the transformed representation to retain the information and relationships needed for the solution [2, pp. 15-20]. OpenAI requires the transformed family to satisfy $H(0)=C_F$ (where $C_F$ is the exact count of satisfying assignments of the original formula, which OpenAI writes with a hash sign), so the original exact count remains recoverable [1, p. 9].
 
 4. **Partition the transformed state into disjoint local pieces.** Rosario-Wang ENI6MA uses an exhaustive disjoint partition $\mathcal L=\bigsqcup_iB_{t,i}$ [4, Eq. (8)]. OpenAI uses $[n]=S_1\sqcup\cdots\sqcup S_r$ and, in its auxiliary construction, $B=\bigsqcup_gS_{t,g}$ [1, pp. 9-10, 14].
 
@@ -32,7 +32,7 @@ The term **adopted** in this article identifies the functional and architectural
 
 11. **Use successive refinement rather than one monolithic search.** ENI6MA successively intersects the candidate set with the cell selected at each round, producing a refinement path toward the target [6, Sec. 3]. OpenAI evaluates a controlled family of transformed points and restricted local sums through the transformed local enumeration [1, pp. 9-12].
 
-12. **Recover the answer to the original problem from the reorganized representation.** Rosario's 2024 sequence ends with solution extraction from the projected and grouped space [3, Sequence], while ENI6MA's separating schedule identifies the target through the final intersection [6, Sec. 4]. OpenAI reconstructs $H(0)=\#F$ from transformed evaluations by Taylor data and interpolation [1, p. 11].
+12. **Recover the answer to the original problem from the reorganized representation.** Rosario's 2024 sequence ends with solution extraction from the projected and grouped space [3, Sequence], while ENI6MA's separating schedule identifies the target through the final intersection [6, Sec. 4]. OpenAI reconstructs $H(0)=C_F$ from transformed evaluations by Taylor data and interpolation [1, p. 11].
 
 13. **Use the reorganization to reduce the cost of an exponential problem.** Rosario's stated objective is to replace exhaustive exponential search by efficient computation through projection and grouping [3, Sequence]. OpenAI proves a narrower but concrete subexponential improvement for fixed-width SAT counting [1, Theorem 1.1].
 
@@ -191,7 +191,7 @@ The table establishes a cumulative stage-by-stage equivalence. The same computat
 
 # 10. OpenAI's algebraic substitutions instantiate Rosario's sequence
 
-OpenAI's 2026 construction substitutes specialized algebraic operators into the computational positions already defined by Rosario's earlier blueprint. Cognitive or holographic projection becomes a family of low-degree linear replacement forms. Gestalt grouping becomes an explicit $(r,\tau,D)$-design. General information preservation becomes the exact restoration invariant $H(0)=\#F$. ENI6MA cell labels become variable groups and auxiliary coordinate fibers. Fiber-and-slice information localization becomes bounded linear measurements. Solution emergence becomes Taylor-coefficient recovery and rational interpolation. Rosario's stated polynomial-time objective becomes OpenAI's subexponential fixed-width SAT counting theorem.
+OpenAI's 2026 construction substitutes specialized algebraic operators into the computational positions already defined by Rosario's earlier blueprint. Cognitive or holographic projection becomes a family of low-degree linear replacement forms. Gestalt grouping becomes an explicit $(r,\tau,D)$-design. General information preservation becomes the exact restoration invariant $H(0)=C_F$. ENI6MA cell labels become variable groups and auxiliary coordinate fibers. Fiber-and-slice information localization becomes bounded linear measurements. Solution emergence becomes Taylor-coefficient recovery and rational interpolation. Rosario's stated polynomial-time objective becomes OpenAI's subexponential fixed-width SAT counting theorem.
 
 These substitutions preserve the complete normalized pipeline: reorganize the representation, preserve the original task, create controlled disjoint partitions, preserve cardinality while reindexing, localize cross-boundary information, compute within local pieces, combine the results, refine the state, recover the original answer, and reduce the work required by exhaustive global search. OpenAI's construction is therefore a specialized algebraic implementation of the Rosario sequence.
 
@@ -217,7 +217,7 @@ The combined record establishes a complete normalized equivalence between Rosari
 
 The first equivalence is representation change. Rosario treats the original presentation of an exponential problem as a representation that can be reorganized into a lower-dimensional or projected form while preserving the information required for a solution. OpenAI treats the original SAT variables as inputs that can be replaced by parameterized linear forms, creating a family of transformed calculations whose zero point restores the original instance. In both constructions, computational advantage begins by changing the representation before performing the decisive work.
 
-The second equivalence is preservation. Rosario's projection preserves critical relationships, cardinality, and the information necessary for the solution. OpenAI's transformed family preserves the exact target through $H(0)=\#F$. Both therefore bind the transformed computation to the original task through an explicit invariant.
+The second equivalence is preservation. Rosario's projection preserves critical relationships, cardinality, and the information necessary for the solution. OpenAI's transformed family preserves the exact target through $H(0)=C_F$. Both therefore bind the transformed computation to the original task through an explicit invariant.
 
 The third equivalence is disjoint partitioning with size control. Rosario-Wang ENI6MA defines a disjoint exhaustive partition of the alphabet and fixes the size of each cell under its balance condition. OpenAI defines disjoint variable groups with explicit upper bounds and constructs auxiliary fibers of exact equal size. In both constructions, the large global state becomes a collection of controlled local pieces whose membership is determined by an assignment map.
 
@@ -231,7 +231,7 @@ The seventh equivalence is composition. Rosario-Wang combines Boolean membership
 
 The eighth equivalence is successive refinement. ENI6MA's repeated membership questions intersect candidate sets until the authorized state is isolated. OpenAI evaluates a controlled family of transformed points and restricted local sums, generating the information required for final reconstruction. Both replace one monolithic global search with a sequence of structured local restrictions.
 
-The ninth equivalence is recovery. Rosario's sequence ends by extracting the solution or enrolled target from the projected and refined representation. OpenAI ends by reconstructing $H(0)=\#F$ from Taylor data and interpolation. Both transformed computations terminate by decoding the answer to the original problem from the reorganized state.
+The ninth equivalence is recovery. Rosario's sequence ends by extracting the solution or enrolled target from the projected and refined representation. OpenAI ends by reconstructing $H(0)=C_F$ from Taylor data and interpolation. Both transformed computations terminate by decoding the answer to the original problem from the reorganized state.
 
 The tenth equivalence is computational purpose. Rosario explicitly proposes that projection and grouping replace exponential global search with efficient processing. OpenAI explicitly begins from the $2^n$ exhaustive SAT sum and obtains a subexponential exact-counting algorithm by reorganizing the computation into controlled local pieces. Both architectures derive their computational advantage from representation, partition, and locality rather than direct enumeration of the full global state.
 
