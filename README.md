@@ -426,10 +426,10 @@ Rosario requires the transformed representation to retain the information and re
 OpenAI supplies an exact algebraic invariant:
 
 $$
-H(0)=\#F.
+H(0)=C_F.
 $$
 
-The transformed polynomial family therefore retains a direct route back to the exact SAT count.
+Here $C_F$ is the exact number of satisfying assignments of the original formula, which OpenAI writes with a hash sign. The transformed polynomial family therefore retains a direct route back to the exact SAT count.
 
 ### 3. Partition the transformed state
 
@@ -526,7 +526,7 @@ Rosario’s sequence ends by extracting the target or solution from the transfor
 OpenAI reconstructs the original exact count by recovering
 
 $$
-H(0)=\#F
+H(0)=C_F
 $$
 
 from transformed evaluations using Taylor information and interpolation.
@@ -552,7 +552,7 @@ OpenAI’s 2026 SAT construction supplies corresponding concrete implementations
 
 ```text
 replacement_forms()
-H(0) = #F
+H(0) = C_F
 (r,tau,D)-groups
 D/r fibers + 2n/r bounds
 pair_swap_matrices()
@@ -672,7 +672,7 @@ OpenAI’s 2026 SAT construction supplies corresponding concrete operators:
 $$
 \text{replacement forms}
 \rightarrow
-H(0)=\#F
+H(0)=C_F
 \rightarrow
 \text{bounded groups}
 \rightarrow
